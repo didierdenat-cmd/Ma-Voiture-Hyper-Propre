@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ma Voiture Hyper Propre | Benjamin Denat</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+html{scroll-behavior:smooth;}
+body{background:#0f0f0f;color:white;}
+nav{position:fixed;width:100%;background:rgba(0,0,0,0.9);padding:20px 8%;display:flex;justify-content:space-between;align-items:center;z-index:1000;}
+.logo{font-size:1.3rem;font-weight:700;}
+nav ul{display:flex;gap:30px;list-style:none;}
+nav a{color:white;text-decoration:none;}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 20px;background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.75));}
+.hero-content{max-width:850px;}
+.hero h1{font-size:4rem;margin-bottom:20px;}
+.hero p{font-size:1.2rem;color:#ddd;}
+.btn{display:inline-block;margin-top:35px;padding:15px 35px;background:white;color:black;text-decoration:none;border-radius:40px;font-weight:600;text-decoration:none;}
+section{padding:100px 8%;}
+.section-title{text-align:center;margin-bottom:60px;}
+.section-title h2{font-size:2.5rem;}
+.about{max-width:900px;margin:auto;text-align:center;color:#d5d5d5;}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px;}
+.card{background:#181818;border:1px solid #2c2c2c;border-radius:20px;padding:30px;}
+.price-box{background:white;color:black;max-width:600px;margin:auto;text-align:center;padding:50px;border-radius:25px;}
+.price{font-size:4rem;font-weight:700;}
+.availability{background:#181818;border-radius:20px;padding:40px;max-width:800px;margin:auto;}
+.contact{text-align:center;}
+footer{background:black;text-align:center;padding:30px;color:#888;}
+
+@media(max-width:768px){
+.hero h1{font-size:2.8rem;}
+nav ul{display:none;}
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<div class="logo">Ma Voiture Hyper Propre</div>
+
+<ul>
+<li><a href="#apropos">À propos</a></li>
+<li><a href="#services">Prestations</a></li>
+<li><a href="#tarif">Tarif</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+<h1>Ma Voiture Hyper Propre</h1>
+
+<p>
+Votre voiture mérite un intérieur comme neuf.
+</p>
+
+<a href="#contact" class="btn">Prendre rendez-vous</a>
+
+</div>
+
+</section>
+
+<section id="apropos">
+
+<div class="section-title">
+<h2>Qui suis-je ?</h2>
+</div>
+
+<div class="about">
+
+<p>
+Je m'appelle <strong>Benjamin Denat</strong>, j'ai <strong>16 ans</strong> et j'ai créé <strong>Ma Voiture Hyper Propre</strong> afin de proposer un service de nettoyage intérieur automobile pendant les vacances d'été.
+</p>
+
+<br>
+
+<p>
+Passionné par l'automobile et le travail bien fait, je prends soin de l'intérieur de votre véhicule avec sérieux et professionnalisme. J'utilise mon propre matériel et mes produits de nettoyage. Seul l'aspirateur doit être fourni par le client.
+</p>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<div class="section-title">
+<h2>Mes prestations</h2>
+</div>
+
+<div class="services">
+
+<div class="card">
+<h3>🧹 Dépoussiérage complet</h3>
+<p>Nettoyage minutieux du tableau de bord, des plastiques et des surfaces intérieures.</p>
+</div>
+
+<div class="card">
+<h3>🪑 Sièges</h3>
+<p>Nettoyage et entretien des sièges tissu ou cuir.</p>
+</div>
+
+<div class="card">
+<h3>🦶 Tapis et sols</h3>
+<p>Remise en état des tapis et zones de passage.</p>
+</div>
+
+<div class="card">
+<h3>📱 Écrans et commandes</h3>
+<p>Nettoyage délicat des écrans et commandes de bord.</p>
+</div>
+
+<div class="card">
+<h3>📦 Coffre</h3>
+<p>Nettoyage du coffre et des espaces de rangement.</p>
+</div>
+
+<div class="card">
+<h3>🚫 Intérieur uniquement</h3>
+<p>Le nettoyage extérieur du véhicule n'est pas proposé.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="tarif">
+
+<div class="section-title">
+<h2>Tarif unique</h2>
+</div>
+
+<div class="price-box">
+<p>Nettoyage complet de l'intérieur</p>
+<div class="price">10 €</div>
+<p>Par véhicule</p>
+</div>
+
+</section>
+
+<section>
+
+<div class="section-title">
+<h2>Disponibilités</h2>
+</div>
+
+<div class="availability">
+
+<p>✅ Disponible tout l'été.</p>
+
+<br>
+
+<p><strong>Indisponible :</strong></p>
+
+<ul>
+<li>Du 11 juillet au 23 juillet</li>
+<li>Du 22 août au 28 août</li>
+</ul>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="section-title">
+<h2>Contact</h2>
+</div>
+
+<div class="contact">
+
+<p>
+Pour réserver un créneau ou demander des renseignements :
+</p>
+
+<br>
+
+<h3>📞 07 44 43 76 65</h3>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Ma Voiture Hyper Propre - Benjamin Denat
+</footer>
+
+</body>
+</html>
